@@ -22,5 +22,3 @@ $('ul').hover( function(){
 function(){
     $('ul').css('opacity', '1');
 });
-
-$('.homes').addClass('.home_border'）;
