@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
 }
+
 header{
   margin: 0;
   background: #edf0f1;
@@ -11,23 +12,26 @@ header{
     display: flex;
     ul{
       display: flex;
-      padding-left: 500px;
       margin: 0;
       line-height: 49px;
-      padding-right: 30px;
+      padding-right: 10px;
+      padding-left: 500px;
+      box-sizing: border-box;
       li{
         list-style: none;
         color: #666;
-        padding-left: 40px;
         font-size: 11px;
         font-weight: bold;
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 49px;
       }
     }
     .home{
       width: 25px;
       padding-top: 10px;
-      padding-right: 10px;
-      padding-left: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
     }
   }
   ul:hover{
@@ -36,6 +40,12 @@ header{
   li:hover{
     opacity: 1;
     color: black;
+    border-bottom: 2px solid #00b5d9;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .homes:hover{
+    border-bottom: 2px solid #00b5d9;
   }
 }
 main{
